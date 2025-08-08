@@ -195,44 +195,15 @@ export class EmployeeSearchEngine {
       return "I couldn't find any employees matching your criteria. Try adjusting your search terms or requirements.";
     }
 
-    const topResults = results.slice(0, 3);
+    const topResults = results.slice(0, 5);
+    let response = `I found ${results.length} employee(s) matching your query "${originalQuery}".\n\n`;
     
-    // Generate more sophisticated RAG-style response
-    let response = `Based on your query "${originalQuery}", I found ${results.length} candidate(s):\n\n`;
-    
-    topResults.forEach((result, index) => {
-      const emp = result.employee;
-      const criteria = result.matchedCriteria;
-      
-      response += `**${emp.name}** would be ${index === 0 ? 'an excellent' : 'a strong'} candidate for this role. `;
-      response += `With ${emp.experience_years} years of experience as a ${emp.role}, `;
-      
-      // Highlight relevant skills
-      const relevantSkills = criteria.filter(c => c.toLowerCase().includes('skills')).join(', ');
-      if (relevantSkills) {
-        response += `they bring expertise in ${relevantSkills.replace('Skills: ', '')}. `;
-      }
-      
-      // Mention relevant projects
-      const relevantProjects = criteria.filter(c => c.toLowerCase().includes('project')).join(', ');
-      if (relevantProjects) {
-        response += `Their experience includes ${relevantProjects.replace('Relevant projects: ', '')} projects. `;
-      } else if (emp.projects.length > 0) {
-        response += `Notable projects include "${emp.projects[0]}" and "${emp.projects[1] || emp.projects[0]}". `;
-      }
-      
-      // Availability status
-      const availabilityText = emp.availability === 'available' ? 'currently available' : 
-                              emp.availability === 'partially_available' ? 'partially available' : 'currently busy';
-      response += `They are ${availabilityText} and located in ${emp.location}.\n\n`;
-    });
-    
-    if (results.length > 3) {
-      response += `I also found ${results.length - 3} additional candidate(s) that may be suitable. `;
+    if (results.length === 1) {
+      response += "Here's the best match:";
+    } else {
+      response += "Here are the top matches:";
     }
-    
-    response += `Would you like me to provide more details about any of these candidates or help you refine your search criteria?`;
-    
+
     return response;
   }
 }

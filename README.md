@@ -1,3 +1,5 @@
+[![Built with Lovable](https://img.shields.io/badge/Built%20with-Lovable-blueviolet)](https://www.lovable.so/)
+
 # Welcome Lovable project
 
 ## Project info

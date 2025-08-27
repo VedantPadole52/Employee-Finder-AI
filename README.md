@@ -16,35 +16,25 @@ Changes made via Lovable will be committed automatically to this repo.
 
 🚧 Why I Built This
 
-As someone learning to build real-world applications, I wanted to focus on understanding product design, data flow, and AI tool integration — instead of starting purely with code. Lovable allowed me to:
-
-Prototype a real-world solution quickly
-
-Focus on logic, flow, and user experience
-
-Learn how AI tools can assist development
-
-Understand how to structure apps without needing to manually code every part
+-As someone learning to build real-world applications, I wanted to focus on understanding product design, data flow, and AI tool integration — instead of starting purely with code. Lovable allowed me to:
+-Prototype a real-world solution quickly
+-Focus on logic, flow, and user experience
+-Learn how AI tools can assist development
+-Understand how to structure apps without needing to manually code every part
 
 🧠 What I Learned
 
-How no-code AI tools work in practice
-
-Basics of app logic and workflow automation
-
-Importance of UI/UX in functional web apps
-
-How to communicate between front-end features and backend data (even if assisted)
+-How no-code AI tools work in practice
+-Basics of app logic and workflow automation
+-Importance of UI/UX in functional web apps
+-How to communicate between front-end features and backend data (even if assisted)
 
 💡 Future Plans
 
-Rebuild parts of the app manually (e.g. using React or Next.js)
-
-Add database integration (e.g. Firebase, MongoDB)
-
-Add authentication and user roles
-
-Improve matching algorithm manually
+-Rebuild parts of the app manually (e.g. using React or Next.js)
+-Add database integration (e.g. Firebase, MongoDB)
+-Add authentication and user roles
+-Improve matching algorithm manually
 
 📌 Disclaimer
 

@@ -14,6 +14,7 @@ Simply visit the [Lovable Project](https://lovable.dev/projects/4bca529b-1bb4-45
 
 Changes made via Lovable will be committed automatically to this repo.
 
+
 🚧 Why I Built This
 
 - As someone learning to build real-world applications, I wanted to focus on understanding product design, data flow, and AI tool integration — instead of starting purely with code. Lovable allowed me to:
@@ -22,12 +23,14 @@ Changes made via Lovable will be committed automatically to this repo.
 - Learn how AI tools can assist development
 - Understand how to structure apps without needing to manually code every part
 
+
 🧠 What I Learned
 
 - How no-code AI tools work in practice
 - Basics of app logic and workflow automation
 - Importance of UI/UX in functional web apps
 - How to communicate between front-end features and backend data (even if assisted)
+
 
 💡 Future Plans
 
@@ -36,9 +39,12 @@ Changes made via Lovable will be committed automatically to this repo.
 - Add authentication and user roles
 - Improve matching algorithm manually
 
+
 📌 Disclaimer
 
 This project was built with the help of the Lovable AI platform. Some parts of the logic and UI were generated or assisted by the platform. I focused on understanding the app's structure, features, and the role of AI in accelerating development. This project is part of my learning journey in tech and software development.
+
+
 
 **Use your preferred IDE**
 
@@ -62,11 +68,13 @@ npm i
 npm run dev
 ```
 
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
 - Click the "Edit" button (pencil icon) at the top right of the file view.
 - Make your changes and commit the changes.
+
 
 **Use GitHub Codespaces**
 
@@ -75,6 +83,7 @@ npm run dev
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
+
 
 ## What technologies are used for this project?
 
@@ -85,6 +94,7 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
 
 ## How can I deploy this project?
 

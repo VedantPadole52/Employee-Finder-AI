@@ -1,4 +1,4 @@
-#AI   #ToolAssisted   #LearningProject.
+#(AI)   #(ToolAssisted)  #(LearningProject.)
 [![Built with Lovable](https://img.shields.io/badge/Built%20with-Lovable-blueviolet)](https://www.lovable.so/)
 
 

@@ -14,6 +14,42 @@ Simply visit the [Lovable Project](https://lovable.dev/projects/4bca529b-1bb4-45
 
 Changes made via Lovable will be committed automatically to this repo.
 
+🚧 Why I Built This
+
+As someone learning to build real-world applications, I wanted to focus on understanding product design, data flow, and AI tool integration — instead of starting purely with code. Lovable allowed me to:
+
+Prototype a real-world solution quickly
+
+Focus on logic, flow, and user experience
+
+Learn how AI tools can assist development
+
+Understand how to structure apps without needing to manually code every part
+
+🧠 What I Learned
+
+How no-code AI tools work in practice
+
+Basics of app logic and workflow automation
+
+Importance of UI/UX in functional web apps
+
+How to communicate between front-end features and backend data (even if assisted)
+
+💡 Future Plans
+
+Rebuild parts of the app manually (e.g. using React or Next.js)
+
+Add database integration (e.g. Firebase, MongoDB)
+
+Add authentication and user roles
+
+Improve matching algorithm manually
+
+📌 Disclaimer
+
+This project was built with the help of the Lovable AI platform. Some parts of the logic and UI were generated or assisted by the platform. I focused on understanding the app's structure, features, and the role of AI in accelerating development. This project is part of my learning journey in tech and software development.
+
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
@@ -64,10 +100,8 @@ This project is built with:
 
 Simply open [Lovable](https://lovable.dev/projects/4bca529b-1bb4-45dc-acb7-47fc00e1572a) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+🙋‍♂️ About Me
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+I'm a learner exploring software development, AI tools, and real-world problem solving through projects. Always open to feedback and collaboration!
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

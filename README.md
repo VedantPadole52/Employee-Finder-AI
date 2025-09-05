@@ -3,7 +3,7 @@
 
 #(ToolAssisted)   #(LearningProject.)
 # Welcome Lovable project
-> ⚠️ This project was generated using [Lovable](https://www.lovable.so/). I did not write the core code, but I deployed and branded it to explore ethical AI-assisted workflows. All authorship is transparently credited.
+>  This project was generated using [Lovable](https://www.lovable.so/). I did not write the core code, but I deployed and branded it to explore ethical AI-assisted workflows. All authorship is transparently credited.
 
 
 ## Project info
